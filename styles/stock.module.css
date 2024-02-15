@@ -1,0 +1,104 @@
+.title  {
+    display: flex;
+    width: 100%;
+    font-size: 2.5em;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.h2 {
+    font-size: 2em;
+    margin: 30px 10px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255); 
+    border: 1px solid rgb(59, 59, 59);
+    background-color: rgb(59, 59, 59);
+}
+
+.dashboard {
+    display: flex;
+    background-color: rgb(59, 59, 59);
+}
+
+.stats {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    padding: 16px;
+    font-weight: bold;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(19, 19, 19);
+}
+
+.p {
+    margin: 10px;
+    width: 100%;
+    font-size: 1.5em;
+    display: flex;
+    padding: 0 8px;
+    position: relative;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+.sales {
+    position: absolute; right: 0px;
+    border-left: 1px solid black;
+    color: green;   
+    width: 40px;
+    text-align: center;
+  
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    
+    font-size: 2em;
+    padding: 16px;
+    text-align: center;
+}
+
+.input {
+    margin-top: 30px;
+    height: 50px;
+    padding: 42px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    font-size: 1em;
+}
+
+.validate {
+    margin: 80px auto 30px auto;
+    width: 300px;
+    height: 60px;
+    font-size: 1.2em;
+}
+
+.spanProduct {
+    color: red
+}
+
+.spanQuantity {
+    color: green
+}

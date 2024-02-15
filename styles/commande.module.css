@@ -1,0 +1,156 @@
+.title {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0 50px 0
+}
+
+.cloture {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  padding: 8px;
+  margin: 30px auto;
+  width: 120px;
+}
+
+.loading {
+  margin-top: 200px;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+}
+  
+.infos {
+  display: flex;
+  padding: 16px 0 32px 0;
+  justify-content: space-around;
+}
+
+.commandeLength {
+  color: red;
+}
+
+.profit {
+  color: green;
+}
+
+.category {
+  display: flex;
+  width: 99%;
+  margin: 0 auto;
+}
+  
+.titleName, .titleName, .titleAddress {
+  width: 20%;
+  text-align: center;
+  color: rgb(8, 27, 194);
+}
+  
+.titleProduct {
+  width: 40%;
+  text-align: center;
+  color: rgb(8, 27, 194);
+}
+
+.titleStatus {
+  width: 15%;
+  text-align: center;
+  color: rgb(8, 27, 194);
+}
+  
+.titlePrice {
+  width: 5%;
+  text-align: center;
+  color: rgb(8, 27, 194);
+}
+.row {
+  display: flex;
+  width: 99%;
+  border: 1px solid black;
+  margin: 2px auto;
+  min-height: 80px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+  
+.name {
+  width: 20%;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2px;
+  border-right: 1px solid black;
+}
+  
+.txt {
+  overflow-wrap: break-word; 
+}
+  
+.address {
+  width: 20%;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2px;
+  border-right: 1px solid black;
+}
+  
+.products {
+  width: 40%;
+  font-weight: bold;
+  display: flex;
+  padding: 2px;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 1px solid black;
+}
+
+.city {
+  margin-left: 2px;
+}
+
+.status {
+  width: 15%;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2px;
+  transition: 12.4s ease-in-out;
+  border-right: 1px solid black;
+}
+
+.status:hover {
+  cursor: pointer;
+}
+  
+.check {
+  color: rgb(1, 75, 1);
+}
+  
+.noCheck {
+  color: rgb(71, 2, 2)
+}
+  
+.readyToSend {
+  transition: .4s ease-in-out;
+  background: rgb(110, 202, 110);
+}
+  
+.notPrepared {
+  transition: .4s ease-in-out;
+  background-color: rgb(216, 92, 92);
+}
+
+.price {
+ width: 5%;
+ font-weight: bold;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding: 2px;
+ border-right: 1px solid black;
+}

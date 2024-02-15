@@ -1,0 +1,165 @@
+.main {
+    position: relative
+}
+
+.title  {
+    display: flex;
+    width: 100%;
+    font-size: 2.5em;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.profil {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.7em;
+    justify-content: center;
+    right: 10px;
+    top: -25px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    color: white;
+    transition: .4s ease-in-out;
+    background-color: rgb(43, 43, 43) ;
+    border: 3px solid rgb(43, 43, 43);
+}
+
+.profil:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.h2 {
+    font-size: 2em;
+    margin: 30px 10px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(252, 252, 252); 
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(44, 44, 44);
+}
+.dashboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.stats {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    padding: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 16px;
+}
+
+.stat {
+    position: fixed;
+    top: 50%;
+    width: 100%; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(10, 10, 10);
+    font-size: 2em;
+    padding: 16px;
+    text-align: center;
+}
+
+.p {
+    margin: 10px;
+    width: 100%;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.red {
+    color: red
+}
+
+.green {
+    color: green
+}
+
+.pub {
+    color: violet
+}
+
+.modal {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(41, 41, 41);
+    font-size: 2em;
+    padding: 16px;
+    text-align: center;
+}
+
+.input {
+    margin-top: 30px;
+    height: 50px;
+    padding: 42px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    font-size: 1em;
+}
+
+.validate {
+    margin: 120px auto 30px auto;
+    width: 300px;
+    height: 60px;
+    font-size: 1.2em;
+}
+
+.name, .statut {
+    margin: 50px auto;
+    font-size: 2em;
+}
+
+.email {
+    margin-top: 50px;
+}
+
+.password {
+    margin-top: 130px;
+}
+.spanName {
+    color: green
+}
+
+.spanStatus {
+    color: red
+}
