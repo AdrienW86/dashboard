@@ -165,7 +165,7 @@ function Commande() {
                 </div> 
                 <div className={styles.status}>
                   {statuses[index] ? (
-                    <p className={styles.check}>Prêt à l'envoiement</p>
+                    <p className={styles.check}>Prêt à l'envoi</p>
                   ) : (
                     <p className={styles.noCheck}>Non préparé</p>
                   )}
